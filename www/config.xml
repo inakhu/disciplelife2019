@@ -20,9 +20,7 @@
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
-    <plugin name="cordova-plugin-battery-status" spec="~2.0.2" />
-    <plugin name="cordova-plugin-camera" spec="~4.0.3" />
-    <plugin name="cordova-plugin-console" spec="~1.1.0" />
+    <plugin name="cordova-plugin-nativestorage" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-contacts" spec="~3.0.1" />
     <plugin name="cordova-plugin-device" spec="~2.0.2" />
     <plugin name="cordova-plugin-dialogs" spec="~2.0.1" />
@@ -31,8 +29,7 @@
     <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
     <plugin name="cordova-plugin-globalization" spec="~1.11.0" />
     <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
-    <plugin name="cordova-plugin-media" spec="~5.0.2" />
-    <plugin name="cordova-plugin-media-capture" spec="~3.0.2" />
+    <plugin name="cordova-plugin-x-socialsharing" source="npm" spec="~5.2.1" />
     <plugin name="cordova-plugin-network-information" spec="~2.0.1" />
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <plugin name="cordova-plugin-vibration" spec="~3.1.0" />
